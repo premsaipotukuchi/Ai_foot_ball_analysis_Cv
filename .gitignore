@@ -1,0 +1,86 @@
+# Environment variables
+.env
+.env.*
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+.idea/
+
+# =========================
+# ML / Deep Learning Models
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.joblib
+*.pkl
+*.mp4
+*.avi
+*.mov
+# Model directories
+models/
+checkpoints/
+weights/
+saved_models/
+
+# YOLO / Ultralytics
+runs/
+ultralytics/
+yolo_runs/
+training/
+outputvideos/   
+
+# Torch / TF artifacts
+lightning_logs/
+wandb/
+
+# Large data
+datasets/
+data/
+raw_data/
+processed_data/     
+
+# =========================
+# Roboflow / Datasets
+# =========================
+data/
+dataset/
+datasets/
+roboflow/
+roboflow_data/
+
+# Images & labels
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.gif
+*.mp4
+
+# YOLO labels
+*.txt
+
+# COCO / annotations
+*.json
+*.xml
+annotations/
